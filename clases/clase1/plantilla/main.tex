@@ -1,0 +1,77 @@
+\documentclass[a4paper]{article} 
+\input{head}
+\newcommand{\pow}[2]{#1^{#2}}
+\newcommand{\supra}[1]{\textsuperscript{#1}}
+\begin{document}
+
+%-------------------------------
+%	TITLE SECTION
+%-------------------------------
+
+\fancyhead[C]{}
+\hrule \medskip % Upper rule
+\begin{minipage}{0.295\textwidth} 
+\raggedright
+\footnotesize
+Fausto David Hernández Jasso \hfill\\   
+@FaustoJH \hfill\\
+fausto.david.hernandez.jasso@ciencias.unam.mx
+\end{minipage}
+\begin{minipage}{0.4\textwidth} 
+\centering 
+\large 
+Inteligencia Artificial\\ 
+\normalsize 
+Introducción a \texttt{Python} \\ 
+\end{minipage}
+\begin{minipage}{0.295\textwidth} 
+\raggedleft
+\today\hfill\\
+\end{minipage}
+\medskip\hrule 
+\bigskip
+\section{¿Qué es \texttt{Python}?}
+\noindent
+Es un lenguaje de programación potente y rápido, se lleva bien con todos, corre en cualquier plataforma
+es amistoso y sencillo de aprender.
+\section{Ejecutar un programa en \texttt{Python}}
+Supongamos que un archivo llamado \texttt{hello\_world.py} tenemos el siguiente programa en \texttt{Python}
+\begin{lstlisting}[language=Python]
+    print('Hello World!')
+\end{lstlisting}
+Se ejecuta de la siguiente manera:
+\begin{lstlisting}[language=bash]
+    $ python hello\_world.py
+\end{lstlisting}
+\section{Variables}
+\noindent
+Podemos \textbf{asociar} nombres a cualquier tipo de objeto usando el operador de asignación 
+\texttt{=}
+\newline 
+\(\langle \text{\texttt{name}} \rangle = \langle \text{\texttt{value}} \rangle\)
+\newline 
+Una variable siempre puede ser reasignada a diferentes valores de diferentes tipos durante su
+ciclo de vida.
+\begin{lstlisting}[language=Python]
+    var = 1
+    print(var) # Imprime el 1
+    var = 2
+    print(var) # Imprime el 2
+    print(type(var)) # Nos dice que el tipo de la variable es un entero
+    var = 'Hola'
+    print(var) # Imprime la cadena Hola
+    print(type(var)) # Nos dice que el tipo de la variable es un string
+    var = [1, 2, 3]
+    print(type(var)) # Nos dice que el tipo de la variable es una lista
+\end{lstlisting}
+\subsubsection{Constantes}
+\noindent
+Las constantes son nombres a un valor que solamente son asignados una vez durante todo el programa,
+es decir, siempre vale lo mismo.
+\begin{lstlisting}[language=Python]
+    CONSTANTE_DE_GRAVEDAD = 9.81
+    PI = 3.1415
+    MI_CONSTANTE = 3212
+\end{lstlisting}
+
+\end{document}
