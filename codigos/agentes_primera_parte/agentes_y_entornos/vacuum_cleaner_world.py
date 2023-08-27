@@ -1,13 +1,12 @@
 import time
 from agent import Agent
 from environment import Environment
-from perception import Perception
 
 class VacuumCleanerWorld:
 
-    def __init__(self):
-        self.__environment = Environment(4, 4)
-        self.__agent = Agent(4, 4)
+    def __init__(self, i, j):
+        self.__environment = Environment(i, j)
+        self.__agent = Agent(i, j)
     
     def make_simulation(self):
         # Condiciones Iniciales
@@ -31,5 +30,7 @@ class VacuumCleanerWorld:
         print("(" + str(self.__agent.y) + ", " + str(self.__agent.x) + ")")
 
 if __name__ == '__main__':
-    v = VacuumCleanerWorld()
+    i = 5
+    j = 5
+    v = VacuumCleanerWorld(i, j)
     v.make_simulation()
