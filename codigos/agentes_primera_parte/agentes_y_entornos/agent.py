@@ -19,7 +19,7 @@ class Agent:
         return self.__y
     
     def percept(self, matrix):
-        self.__percept_sequence.append(Perception(self.__y, self.__x, matrix[self.__y, self.__x]))
+        self.__percept_sequence.insert(0, Perception(self.__y, self.__x, matrix[self.__y, self.__x]))
 
     def agent_function(self, matrix):
         if matrix[self.__y, self.__x] == 1: # Sí está sucio limpiamos
