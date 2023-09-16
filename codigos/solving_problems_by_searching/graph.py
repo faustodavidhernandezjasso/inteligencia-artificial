@@ -4,7 +4,6 @@ class Graph:
         self.__graph_dictionary = graph_dictionary
         self.link_vertices()
 
-
     @property
     def graph_dictionary(self):
         return self.__graph_dictionary

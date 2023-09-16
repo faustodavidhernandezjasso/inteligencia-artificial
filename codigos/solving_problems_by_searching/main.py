@@ -1,8 +1,6 @@
 from search_problem import SearchProblem
-from action import Action
 from node import Node
 from algorithms import Algorithms
-from graph import Graph
 
 def solution(node: Node):
     solution = []
@@ -28,5 +26,3 @@ if __name__ == '__main__':
     node = alg.a_star(problem)
     print("A*: ")
     print_solution(solution(node))
-
-    
