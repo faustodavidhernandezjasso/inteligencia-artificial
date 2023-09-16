@@ -46,10 +46,3 @@ class SearchProblem:
     
     def action_cost(self, state, new_state):
         return self.__graph.get_distance(state, new_state)
-    
-
-# if __name__ == '__main__':
-#     problem = SearchProblem()
-#     for action in problem.actions('Arad'):
-#         print(problem.result('Arad', action))
-#         print(action.name_of_action)
