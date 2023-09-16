@@ -4,8 +4,8 @@ from action import Action
 class SearchProblem:
 
     def __init__(self) -> None:
-        self.__initial_state = "Arad"
-        self.__goal_state = "Bucharest"
+        self.__initial_state = "Oradea"
+        self.__goal_state = "Hirsova"
         self.__graph = Graph(dict(
                             Arad=dict(Zerind=75, Sibiu=140, Timisoara=118),
                             Bucharest=dict(Urziceni=85, Pitesti=101, Giurgiu=90, Fagaras=211),
