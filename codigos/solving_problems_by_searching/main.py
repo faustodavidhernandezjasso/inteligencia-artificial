@@ -25,4 +25,8 @@ if __name__ == '__main__':
     node = alg.depth_first_search(problem)
     print("DFS: ")
     print_solution(solution(node))
+    node = alg.a_star(problem)
+    print("A*: ")
+    print_solution(solution(node))
+
     
