@@ -30,7 +30,7 @@ class Agent:
     def make_movement(self, matrix):
         if self.__x > 0 and self.__x < self.__m - 1: # Entonces me puedo mover hacia la derecha o hacia la izquierda.
             if self.__y > 0 and self.__y < self.__n - 1: # Entonces me puedo mover hacia arriba o hacia abajo.
-                self.take_decision(r.randint(0, 3))
+                self.take_decision(r.randint(0, 3)) 
             elif self.__y <= 0: # Entonces no me puedo mover hacia abajo.
                 self.take_decision(r.randint(0, 2))
             else: # Entonces no me puedo mover hacia arriba.
