@@ -1,0 +1,65 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{nty/global//global/global}
+  \entry{sekhon}{unpublished}{}
+    \name{author}{1}{}{%
+      {{hash=SS}{%
+         family={Sekhon},
+         familyi={S\bibinitperiod},
+         given={Senan},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \keyw{metric spaces,topological spaces}
+    \strng{namehash}{SS1}
+    \strng{fullhash}{SS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{note}{Unpublished}
+    \field{title}{Metric and Topological Spaces}
+    \field{year}{2019}
+  \endentry
+
+  \entry{taylor}{book}{}
+    \name{author}{1}{}{%
+      {{hash=TJL}{%
+         family={Taylor},
+         familyi={T\bibinitperiod},
+         given={Joseph\bibnamedelima L.},
+         giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {AMS}%
+    }
+    \keyw{complex,variables,analysis}
+    \strng{namehash}{TJL1}
+    \strng{fullhash}{TJL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{T}
+    \field{sortinithash}{T}
+    \field{isbn}{978-0-8218-6901-7}
+    \field{title}{Complex Variables}
+    \field{year}{2011}
+  \endentry
+\enddatalist
+\endinput
