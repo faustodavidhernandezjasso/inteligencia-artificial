@@ -270,6 +270,114 @@ $\N$ denotes the set $\{1,2,3,...\}$ of natural numbers (excluding $0$).
 
 \newpage
 
+\section{Agentes Inteligentes}
+\subsection{Agentes y Entornos}
+\begin{definition}
+    Un \textbf{agente} es todo aquello que puede percibir su \textbf{entorno} a través de 
+    \textbf{sensores} y que actúa sobre ese entorno a través de \textbf{actuadores}.
+\end{definition}
+\begin{examples}\leavevmode
+    \begin{enumerate}
+        \item Humanos
+        \begin{enumerate}
+            \item \textbf{Sensores:} ojos, oídos, etc.
+            \item \textbf{Actuadores:} manos, piernas, etc.
+        \end{enumerate}
+        \item Software
+        \begin{enumerate}
+            \item \textbf{Sensores:} recepción de archivos, paquetes de red 
+            e información de dispositivos como el teclado o el ratón.
+            \item \textbf{Actuadores:} escritura de archivos, envio de paquetes de red,
+            mostrar información.
+        \end{enumerate}
+    \end{enumerate}
+\end{examples}
+\noindent
+El entorno podría serlo todo, sin embargo nosotros nos centraremos en la parte
+que afecta a lo que el agente percibe y que se ve afectada por las acciones del agente.
+\begin{definition}
+    Utilizaremos el término \textbf{percepción} para referirnos al contenido 
+    que perciben los sensores de un agente. 
+    La \textbf{secuencia de percepciones} de un agente es la historia completa de todo 
+    lo que el agente ha percibido a través de sus sensores.
+\end{definition}
+\noindent
+Matemáticamente hablando, decimos que el comportamiento de un agente está descrito por 
+la \textbf{función del agente} que asigna cualquier \textbf{secuencia de percepciones} a
+una \textbf{acción}.
+\begin{definition}
+    Sea \(p_{1}, p_{2}, \dotsc, p_{n}\) percepciones, definimos a \(P\) como la 
+    secuencia de percepciones desde \(p_{1}\) hasta \(p_{n}\), denotada como sigue:
+    \[
+        P = [\ p_{1}, p_{2}, \dotsc, p_{n} ]\ 
+    \]
+    Definimos al conjunto de todas las secuencias de percepciones posibles en el entorno como 
+    \(P^{\star}\).
+\end{definition}
+\begin{definition}
+    A una acción realizada por un agente la denotaremos como \(a\), denotamos al conjunto \(A\)
+    como el conjunto de todas las acciones que puede realizar el agente.
+\end{definition}
+\begin{definition}
+    La función del agente la denotamos como \(f : P^{\star} \to A\).
+\end{definition}
+\noindent
+Podemos tabular la \textbf{función del agente} que describe a cualquier agente dado.
+\newline
+La \textbf{función del agente} para un agente inteligente será implementada por un
+\textbf{programa agente}.
+\subsubsection{El mundo de la aspiradora}
+\noindent
+Consiste en un agente aspiradora robot en un mundo formado por cuadrados que pueden estar
+sucios o limpios.
+\newline
+\textbf{¿Qué percibe el agente?}
+\begin{itemize}
+    \item en qué cuadrado está.
+    \item si hay suciedad en el cuadrado.
+\end{itemize}
+\textbf{¿Qué acciones puede hacer el agente?}
+\begin{itemize}
+    \item moverse a la derecha 
+    \item moverse a la izquierda 
+    \item aspirar la suciedad
+    \item no hacer nada
+\end{itemize}
+\textbf{¿Cuál sería una función del agente?}
+\begin{itemize}
+    \item si el cuadrado está sucio, entonces limpia; si no, pasa a otro cuadrado.
+\end{itemize}
+\subsection{Buen comportamiento}
+\begin{definition}
+    Un agente racional es aquel que hace lo correcto.
+\end{definition}
+\subsubsection{Consecuencialismo}
+\begin{definition}
+    Evaluamos el comportamiento de un agente por sus consecuencias.
+\end{definition}
+\noindent
+Cuando un agente se sitúa en un entorno, genera una secuencia de acciones en función 
+de las percepciones que recibe. Esta secuencia de acciones hace que el entorno
+pase por una secuencia de estados.  Si la secuencia es deseable, entonces el agente ha actuado
+bien. 
+\begin{definition}
+    Una \textbf{medida de rendimiento} evalúa cualquier
+    secuencia dada de estados del entorno.
+\end{definition}
+\begin{examples}\leavevmode
+    Algunas medidas de rendimiento para el mundo de la aspiradora podrían ser:
+    \begin{itemize}
+        \item \(+1\) punto por cada cuadrado limpo el tiempo \(T\).
+        \item \(+1\) punto por limpiar un cuadrado, \(-1\) punto por cada movimiento.
+        \item \(-1000\) para más de \(k\) cuadrados sucios.
+    \end{itemize}
+\end{examples}
+\noindent
+Es mejor diseñar las medidas de rendimiento en función de lo que realmente se quiere conseguir 
+en el entorno, que en función de cómo se piensa que debería comportarse el agente.
+\subsection{Racionalidad}
+
+
 
 \section{Sample Chapter}
 Let's dive right in!

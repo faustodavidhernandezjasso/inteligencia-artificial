@@ -696,6 +696,11 @@ INPUT C:\Users\faust\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmss17
 INPUT C:\Users\faust\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmssbx10.tfm
 INPUT C:\Users\faust\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmss10.tfm
 INPUT C:\Users\faust\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmssbx10.tfm
+INPUT C:\Users\faust\AppData\Local\Programs\MiKTeX\tex\latex\lm\ts1lmr.fd
+INPUT C:\Users\faust\AppData\Local\Programs\MiKTeX\tex\latex\lm\ts1lmr.fd
+INPUT C:\Users\faust\AppData\Local\Programs\MiKTeX\tex\latex\lm\ts1lmr.fd
+INPUT C:\Users\faust\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ts1-lmr10.tfm
+INPUT C:\Users\faust\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-ts1.enc
 INPUT C:\Users\faust\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmri10.tfm
 INPUT .\sunglasses_emoji.png
 INPUT .\sunglasses_emoji.png
@@ -716,11 +721,11 @@ INPUT .\sunglasses_emoji.png
 INPUT .\sunglasses_emoji.png
 INPUT .\sunglasses_emoji.png
 INPUT .\sunglasses_emoji.png
-INPUT .\sunglasses_emoji.png
-INPUT .\sunglasses_emoji.png
-INPUT .\sunglasses_emoji.png
-INPUT .\sunglasses_emoji.png
 INPUT C:\Users\faust\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-mathex.enc
+INPUT .\sunglasses_emoji.png
+INPUT .\sunglasses_emoji.png
+INPUT .\sunglasses_emoji.png
+INPUT .\sunglasses_emoji.png
 INPUT C:\Users\faust\AppData\Local\Programs\MiKTeX\tex\latex\lm\t1lmtt.fd
 INPUT C:\Users\faust\AppData\Local\Programs\MiKTeX\tex\latex\lm\t1lmtt.fd
 INPUT C:\Users\faust\AppData\Local\Programs\MiKTeX\tex\latex\lm\t1lmtt.fd

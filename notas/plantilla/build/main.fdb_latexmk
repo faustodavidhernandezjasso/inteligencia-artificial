@@ -1,14 +1,14 @@
 # Fdb version 4
-["bibtex build/main"] 1706993236 "build/main.aux" "build/main.bbl" "build/main" 1706993364 0
+["bibtex build/main"] 1706998590 "build/main.aux" "build/main.bbl" "build/main" 1706998593 0
   "./bibliography.bib" 1706992646 394 a0e0dcfd2b0edbeb22bc32ca4e182005 ""
   "C:/Users/faust/AppData/Local/Programs/MiKTeX/bibtex/bst/biblatex/biblatex.bst" 1679055682 65484 b7949c47a88ed6dca66ebc7a04577312 ""
-  "build/main.aux" 1706993363 1766 524408cfbc5553b0a23df990163f6782 "pdflatex"
-  "c:/Users/faust/Documents/Inteligencia_Artificial/inteligencia-artificial/notas/plantilla/build/main-blx.bib" 1706993363 342 5ba7332ec7ecc2dc9c6b1bd96e3d9aad ""
+  "build/main.aux" 1706998593 2529 cb04945dcccb1c2ba4f66ecf550b22c1 "pdflatex"
+  "c:/Users/faust/Documents/Inteligencia_Artificial/inteligencia-artificial/notas/plantilla/build/main-blx.bib" 1706998593 342 5ba7332ec7ecc2dc9c6b1bd96e3d9aad ""
   (generated)
   "build/main.bbl"
   "build/main.blg"
   (rewritten before read)
-["pdflatex"] 1706993361 "c:/Users/faust/Documents/Inteligencia_Artificial/inteligencia-artificial/notas/plantilla/main.tex" "build/main.pdf" "main" 1706993364 0
+["pdflatex"] 1706998591 "c:/Users/faust/Documents/Inteligencia_Artificial/inteligencia-artificial/notas/plantilla/main.tex" "build/main.pdf" "main" 1706998593 0
   "C:/Users/faust/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1706992727 162602 09e0a1780be476291122a2020f89e47e ""
   "C:/Users/faust/AppData/Local/MiKTeX/fonts/tfm/public/rsfs/rsfs10.tfm" 1693000199 688 37338d6ab346c2f1466b29e195316aa4 ""
   "C:/Users/faust/AppData/Local/MiKTeX/fonts/tfm/public/rsfs/rsfs5.tfm" 1693000199 684 3a51bd4fd9600428d5264cf25f04bb9a ""
@@ -19,6 +19,7 @@
   "C:/Users/faust/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc" 1256929440 2405 5dcf2c1b967ee25cc46c58cd52244aed ""
   "C:/Users/faust/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc" 1256929440 2840 216e6e45ad352e2456e1149f28885bee ""
   "C:/Users/faust/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc" 1256929440 2327 9d6df24f9c4f7368395224341a95523a ""
+  "C:/Users/faust/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc" 1256929440 3031 6c4d3515bf7115d8518af1c9ab97ca44 ""
   "C:/Users/faust/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/ecrm1000.tfm" 993062122 3148 7e594c8240c71e432203f65ab5f95a51 ""
   "C:/Users/faust/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1233951854 916 f87d7c45f9c908e672703b83b72241a3 ""
   "C:/Users/faust/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/symbols/msam5.tfm" 1233951854 924 9904cf1d39e9767e7a3622f2a125a565 ""
@@ -56,6 +57,7 @@
   "C:/Users/faust/AppData/Local/Programs/MiKTeX/fonts/tfm/public/lm/rm-lmr6.tfm" 1256929440 11836 e3b6ce3e601aec94f64a536e7f4224d5 ""
   "C:/Users/faust/AppData/Local/Programs/MiKTeX/fonts/tfm/public/lm/rm-lmr7.tfm" 1256929440 11852 5a9022f105fd1ee2797df861e79ae9a0 ""
   "C:/Users/faust/AppData/Local/Programs/MiKTeX/fonts/tfm/public/lm/rm-lmr8.tfm" 1256929440 11864 309fd7f43e4a0ba39f6f7644d76e8edf ""
+  "C:/Users/faust/AppData/Local/Programs/MiKTeX/fonts/tfm/public/lm/ts1-lmr10.tfm" 1256929440 1556 b86d923e6b2f9aab2e313098a95cb0b8 ""
   "C:/Users/faust/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb" 1247596673 34694 870c211f62cb72718a00e353f14f254d ""
   "C:/Users/faust/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb" 1256929440 121021 836464b5fe0c782d94085eb083550ccc ""
   "C:/Users/faust/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb" 1256929440 116427 4909e80035dae5d5a4ec2b5ddd9649dd ""
@@ -295,6 +297,7 @@
   "C:/Users/faust/AppData/Local/Programs/MiKTeX/tex/latex/lm/t1lmr.fd" 1430474546 1867 996fe743d88a01aca041ed22cc10e1bb ""
   "C:/Users/faust/AppData/Local/Programs/MiKTeX/tex/latex/lm/t1lmss.fd" 1430474546 1641 f48673bce41ac279099d0c9523459753 ""
   "C:/Users/faust/AppData/Local/Programs/MiKTeX/tex/latex/lm/t1lmtt.fd" 1430474546 2682 555da1faa2e266801e4b221d01a42cb5 ""
+  "C:/Users/faust/AppData/Local/Programs/MiKTeX/tex/latex/lm/ts1lmr.fd" 1430474546 1914 884882d7ebb0fd65cea93fca77ff6f5a ""
   "C:/Users/faust/AppData/Local/Programs/MiKTeX/tex/latex/logreq/logreq.def" 1280941015 1620 fb1c32b818f2058eca187e5c41dfae77 ""
   "C:/Users/faust/AppData/Local/Programs/MiKTeX/tex/latex/logreq/logreq.sty" 1280941015 6187 b27afc771af565d3a9ff1ca7d16d0d46 ""
   "C:/Users/faust/AppData/Local/Programs/MiKTeX/tex/latex/pdfcol/pdfcol.sty" 1663942424 8086 ac143843b6ea88d172677dc3ed532925 ""
@@ -381,13 +384,13 @@
   "C:/Users/faust/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1656236890 56148 51a9a8571c07b9921892ae11063ae853 ""
   "C:/Users/faust/AppData/Local/Programs/MiKTeX/tex/latex/xkeyval/xkeyval.sty" 1656236919 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
   "C:/Users/faust/AppData/Local/Programs/MiKTeX/tex/latex/xpatch/xpatch.sty" 1585221260 8510 7803f78066c4f9d008405191a4b43073 ""
-  "build/main.aux" 1706993363 1766 524408cfbc5553b0a23df990163f6782 "pdflatex"
-  "build/main.bbl" 1706993236 1749 d0483e8a7290a4bda43e71a47356e365 "bibtex build/main"
-  "build/main.out" 1706993363 373 558c885132cecce0638c9316276c3be6 "pdflatex"
-  "build/main.run.xml" 1706993363 2520 57943ec06be08275472e3e0c390ff241 "pdflatex"
-  "build/main.toc" 1706993363 253 29771f141c33dcb473314d67c08dfd16 "pdflatex"
-  "c:/Users/faust/Documents/Inteligencia_Artificial/inteligencia-artificial/notas/plantilla/main.tex" 1706993361 15997 a5aadf536fd6e806f94bbe7f375726b8 ""
-  "main.tex" 1706993361 15997 a5aadf536fd6e806f94bbe7f375726b8 ""
+  "build/main.aux" 1706998593 2529 cb04945dcccb1c2ba4f66ecf550b22c1 "pdflatex"
+  "build/main.bbl" 1706998590 1749 d0483e8a7290a4bda43e71a47356e365 "bibtex build/main"
+  "build/main.out" 1706998593 1300 4e3fdda2c7e456688e7c53bab97baac8 "pdflatex"
+  "build/main.run.xml" 1706998593 2520 57943ec06be08275472e3e0c390ff241 "pdflatex"
+  "build/main.toc" 1706998593 770 f4a32eeea0dab2027de3064a43282c31 "pdflatex"
+  "c:/Users/faust/Documents/Inteligencia_Artificial/inteligencia-artificial/notas/plantilla/main.tex" 1706998588 20442 c0f50d7d5b0a73cae47daf83a79f8018 ""
+  "main.tex" 1706998588 20442 c0f50d7d5b0a73cae47daf83a79f8018 ""
   "sunglasses_emoji.png" 1706992646 20641 bbd32bee6563f593471aeebdc6930151 ""
   (generated)
   "build/main-blx.bib"
