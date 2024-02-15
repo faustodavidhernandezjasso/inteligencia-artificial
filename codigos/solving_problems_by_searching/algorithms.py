@@ -72,4 +72,4 @@ class Algorithms:
                 if not(s in reached) or (child.path_cost < reached[s].path_cost):
                     reached[s] = child
                     frontier.put((child.path_cost + straight_line_heuristic[s], child))
-        return "failure"
+        return "Failure"
